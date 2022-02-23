@@ -19,7 +19,7 @@ function App() {
             >
               <CloseIcon fontSize="small" />
             </button>
-          <div style={{ fontSize: "2.5em" }}>Contact Information</div>
+            <div style={{ fontSize: "2.5em" }}>Contact Information</div>
           </div>
           <div className="popup-desc">
             <div className="contact-item">
@@ -59,7 +59,9 @@ function App() {
       </div>
       <div className="projects">
         <div className="project-item">
-          <img src={"lin-alg-calc.PNG"}></img>
+          <a target="_blank" href="https://nabilmansour.com/LinAlgCalculator">
+            <img src={"lin-alg-calc.PNG"}></img>
+          </a>
           <div className="projects-desc">
             <div>
               A react app that allows for the calculation of linear algebra
@@ -68,10 +70,10 @@ function App() {
             <div className="project-buttons">
               <form
                 method="get"
-                action="https://nabilmansour.com/LinAlgCalculator/"
+                action="https://nabilmansour.com/LinAlgCalculator"
                 target="_blank"
               >
-                <a href="https://nabilmansour.com/LinAlgCalculator/">
+                <a href="https://nabilmansour.com/LinAlgCalculator">
                   <button type="submit">
                     <OpenInBrowserIcon fontSize="large" />
                   </button>
@@ -92,7 +94,9 @@ function App() {
           </div>
         </div>
         <div className="project-item">
-          <img src={"poly-plotter.PNG"}></img>
+          <a target="_blank" href="https://nabilmansour.com/PolyPlotter">
+            <img src={"poly-plotter.PNG"}></img>
+          </a>
           <div className="projects-desc">
             <div>
               A react app that allows for the rendering of polynomials on a
@@ -101,10 +105,10 @@ function App() {
             <div className="project-buttons">
               <form
                 method="get"
-                action="https://nabilmansour.com/PolyPlotter/"
+                action="https://nabilmansour.com/PolyPlotter"
                 target="_blank"
               >
-                <a href="https://nabilmansour.com/PolyPlotter/">
+                <a href="https://nabilmansour.com/PolyPlotter">
                   <button type="submit">
                     <OpenInBrowserIcon fontSize="large" />
                   </button>
@@ -112,7 +116,7 @@ function App() {
               </form>
               <form
                 method="get"
-                action="https://github.com/NabilNYMansour/PolyPlotter"
+                action="https://github.com/NabilNYMansour/PolyPlotter/"
                 target="_blank"
               >
                 <a href="https://github.com/NabilNYMansour/PolyPlotter">
