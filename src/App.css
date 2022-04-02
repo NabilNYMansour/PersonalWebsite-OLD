@@ -192,8 +192,10 @@ img {
   /* outline: 10px solid black; */
 }
 
-img:hover {
-  outline: 5px solid #d4d9e1;
+@media (pointer: fine) {
+  img:hover {
+    outline: 5px solid #d4d9e1;
+  }
 }
 
 @media screen and (max-width: 1250px) {
